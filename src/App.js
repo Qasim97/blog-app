@@ -1,5 +1,6 @@
 import TopBar from "./components/topbar/Topbar";
 import Home from "./pages/home/Home"
+// import Single from "./pages/single/Single";
 function App() {
   return (
     <div className="App">
@@ -7,6 +8,7 @@ function App() {
         <>
         <TopBar></TopBar>
         <Home></Home>
+        {/* <Single></Single> */}
         </>
       </header>
     </div>
